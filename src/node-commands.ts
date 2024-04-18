@@ -79,6 +79,8 @@ let rpcServer = {
 
 // a change from shardeum 3
 
+// another commit from shardeum 3b
+
 console.log('test another change to dev from shardeum')
 
 const validateNetworkConfig = new Ajv().compile(networkConfigSchema);
