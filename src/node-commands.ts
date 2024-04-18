@@ -76,6 +76,8 @@ let rpcServer = {
   url: process.env.RPC_SERVER_URL,
 };
 
+console.log('test another change to dev from shardeum')
+
 const validateNetworkConfig = new Ajv().compile(networkConfigSchema);
 const validateNodeConfig = new Ajv().compile(nodeConfigSchema);
 const validateRpcConfig = new Ajv().compile(rpcConfigSchema);
