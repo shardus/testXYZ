@@ -10,6 +10,9 @@ export interface Pm2ProcessStatus {
 }
 
 export function statusFromPM2(pm2Description: ProcessDescription): Pm2ProcessStatus {
+
+  console.log('hellow changes from shardeum fork')
+
   return {
     name: pm2Description.name,
     uptimeInSeconds: pm2Description.pm2_env?.pm_uptime
