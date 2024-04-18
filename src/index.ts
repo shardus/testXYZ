@@ -13,6 +13,8 @@ dotenv.config();
 process.chdir(path.join(__dirname, '..')); // specify the path to the build folder
 const program = new Command();
 
+console.log('hello fork from shardus')
+
 program
   .name('operator-cli')
   .description('CLI part of the operator dashboard')
